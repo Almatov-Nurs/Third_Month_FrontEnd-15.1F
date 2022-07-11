@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.warp {
+    position: relative;
+    width: 502px;
+    height: 502px;
+    border: 1px solid #111;
+}
+.block {
+    left: 0;
+    right: 0;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background: red;
+    transition: 0.5s;
+}
+button {
+    margin-top: 20px;
+    padding: 20px 40px;
+    letter-spacing: 1px;
+    color: #fff;
+    font-size: 20px;
+    border: none;
+    background: #444;
+    transition: 0.5s;
+}
+button:hover {
+    letter-spacing: 5px;
+    border: none;
+}
+
