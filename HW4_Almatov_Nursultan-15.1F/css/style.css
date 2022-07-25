@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.wrapper > div {
+    display: flex;
+    flex-direction: column;
+}
+
+.current
+{
+    margin-top: 20px;
+}
+
+input
+{
+    padding: 5px 10px;
+}
+
+label
+{
+    font-size: 20px;
+}
